@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light d-flex flex-column justify-content-center align-items-center vh-100">
+
+  <div class="text-center">
+    <h1 class="mb-4">Counter</h1>
+    <div id="counter" class="display-1 fw-bold text-primary mb-4">0</div>
+
+    <div class="d-flex gap-3 justify-content-center">
+      <button class="btn btn-danger btn-lg" onclick="decrement()">Decrease</button>
+      <button class="btn btn-secondary btn-lg" onclick="reset()">Reset</button>
+      <button class="btn btn-success btn-lg" onclick="increment()">Increase</button>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+
+  <!-- Bootstrap JS (Optional, for dropdowns/modals/etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
 
